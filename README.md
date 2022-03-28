@@ -10,6 +10,8 @@ Yolov5를 이용한 coco dataset과 kitti(2d) dataset 간의 훈련 성능 비�
 1) Yolov5, version 6.1(2022.02.22) : https://github.com/ultralytics/yolov5#readme
 2) convert2Yolo, 버전 없음(2019.07.28) : https://github.com/ssaru/convert2Yolo
 
+train_result는 각 데이터셋의 훈련 결과이며, weight 파일 및 predictons.json 파일은 25mb 용량 초과로 빠져 있습니다. 
+
 
 전체적인 흐름
 1. dataset 다운
