@@ -15,3 +15,6 @@ Yolov5를 이용한 coco dataset과 kitti(2d) dataset 간의 훈련 성능 비�
 2. convert2Yolo를 이용하여 kitti 변환
 3. convert2Yolo를 이용하여 coco dataset의 80개 category를 9개로 축소(person, bicycle, car, motorcycle, bus, train, truck, traffic light, stop sign)
 4. coco 원본, 축소본, kitti 데이터셋을 yolov5l의 weight로 훈련
+
+코드 실행 환경
+ubuntu 18.04, python 3.6 및 각 repository 안의 requirements.txt
