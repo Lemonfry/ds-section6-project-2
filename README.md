@@ -1,6 +1,6 @@
 # project2
 
-**Yolov5를 이용한 coco dataset과 kitti(2d) dataset 간의 훈련 성능 비교
+**Yolov5를 이용한 coco dataset과 kitti(2d) dataset 간의 훈련 성능 비교**
 
 * 다음의 dataset을 활용하였습니다.
 1) coco(2017 dataset) : https://cocodataset.org/#home
@@ -13,7 +13,7 @@
 train_result는 각 데이터셋의 훈련 결과이며, weight 파일 및 predictons.json 파일은 25mb 용량 초과로 빠져 있습니다. 
 
 
-**Workflow
+**Workflow**
 1. dataset 다운
 2. convert2Yolo를 이용하여 kitti 변환(kitti.names 활용)
 3. convert2Yolo를 이용하여 coco dataset의 80개 category를 9개로 축소(person, bicycle, car, motorcycle, bus, train, truck, traffic light, stop sign)
