@@ -1,6 +1,8 @@
-# project2
+# ds-section6-project-2
 
-**Yolov5를 이용한 coco dataset과 kitti(2d) dataset 간의 훈련 성능 비교**
+Yolov5를 이용한 coco dataset과 kitti(2d) dataset 간의 훈련 성능 비교
+
+1. 데이터셋
 
 * 다음의 dataset을 활용하였습니다.
 1) coco(2017 dataset) : https://cocodataset.org/#home
@@ -12,7 +14,6 @@
 
 train_result는 각 데이터셋의 훈련 결과이며, weight 파일 및 predictons.json 파일은 25mb 용량 초과로 빠져 있습니다. 
 
-
 **Workflow**
 1. dataset 다운
 2. convert2Yolo를 이용하여 kitti 변환(kitti.names 활용)
@@ -21,4 +22,4 @@ train_result는 각 데이터셋의 훈련 결과이며, weight 파일 및 predi
 4. coco 원본, 축소본, kitti 데이터셋을 yolov5l의 weight로 훈련(coco 원본이 아닌 나머지에는 coco_reduced.yaml, kitti.yaml을 활용)
 
 * 코드 실행 환경
-ubuntu 18.04, python 3.6 및 각 repository 안의 requirements.txt
+ubuntu 18.04, python 3.6, requirements.txt안의 패키지
